@@ -13,7 +13,7 @@ public class LaunchChrome {
 		
 		WebDriver driver=new ChromeDriver();
 		
-		driver.get("http://www.capgemini.com");
+		driver.get("http://www.google.com");
 		
 		String t=driver.getPageSource();
 		
